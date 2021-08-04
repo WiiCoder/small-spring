@@ -2,13 +2,13 @@ package cn.wii.springframework;
 
 /**
  * @ClassName BeanDefinition
- * @Description TODO
+ * @Description Bean定义
  * @Author wii
  * @Date 2021/7/28 1:52 下午
  * @Version 1.0
  */
 
-public class BeanDefinition{
+public class BeanDefinition {
 
     private Object bean;
 

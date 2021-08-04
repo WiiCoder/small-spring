@@ -5,7 +5,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @ClassName BeanFactory
- * @Description TODO
+ * @Description Bean工厂
  * @Author wii
  * @Date 2021/7/28 1:53 下午
  * @Version 1.0
@@ -18,7 +18,7 @@ public class BeanFactory {
         return beanDefinitionMap.get(name).getBean();
     }
 
-    public void registerBeanDefinition(String name,BeanDefinition beanDefinition) {
-        beanDefinitionMap.put(name,beanDefinition);
+    public void registerBeanDefinition(String name, BeanDefinition beanDefinition) {
+        beanDefinitionMap.put(name, beanDefinition);
     }
 }
