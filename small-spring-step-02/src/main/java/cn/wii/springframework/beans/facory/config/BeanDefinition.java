@@ -2,7 +2,7 @@ package cn.wii.springframework.beans.facory.config;
 
 /**
  * @ClassName BeanDefinition
- * @Description TODO
+ * @Description Bean定义
  * @Author wii
  * @Date 2021/7/28 2:36 下午
  * @Version 1.0
@@ -10,17 +10,17 @@ package cn.wii.springframework.beans.facory.config;
 
 public class BeanDefinition {
 
-    private Class beanClass;
+    private Class<?> beanClass;
 
-    public BeanDefinition(Class beanClass) {
+    public BeanDefinition(Class<?> beanClass) {
         this.beanClass = beanClass;
     }
 
-    public Class getBeanClass() {
+    public Class<?> getBeanClass() {
         return beanClass;
     }
 
-    public void setBeanClass(Class beanClass) {
+    public void setBeanClass(Class<?> beanClass) {
         this.beanClass = beanClass;
     }
 }
