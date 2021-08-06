@@ -1,12 +1,9 @@
 package test;
 
-import cn.wii.springframework.beans.facory.config.BeanDefinition;
-import cn.wii.springframework.beans.facory.support.DefaultListableBeanFactory;
+import cn.wii.springframework.beans.factory.config.BeanDefinition;
+import cn.wii.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.junit.Test;
 import test.bean.UserService;
-
-import java.math.BigDecimal;
-import java.math.RoundingMode;
 
 /**
  * @ClassName ApiTest
@@ -24,7 +21,7 @@ public class ApiTest {
 
         BeanDefinition beanDefinition = new BeanDefinition(UserService.class);
         String userServiceStr = "userService";
-        beanFactory.registerBeanDefinition(userServiceStr,beanDefinition);
+        beanFactory.registerBeanDefinition(userServiceStr, beanDefinition);
 
         UserService userService = (UserService) beanFactory.getBean(userServiceStr);
 

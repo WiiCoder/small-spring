@@ -2,9 +2,9 @@ package test;
 
 import cn.wii.springframework.beans.PropertyValue;
 import cn.wii.springframework.beans.PropertyValues;
-import cn.wii.springframework.beans.facory.config.BeanDefinition;
-import cn.wii.springframework.beans.facory.config.BeanReference;
-import cn.wii.springframework.beans.facory.support.DefaultListableBeanFactory;
+import cn.wii.springframework.beans.factory.config.BeanDefinition;
+import cn.wii.springframework.beans.factory.config.BeanReference;
+import cn.wii.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.junit.Test;
 import test.bean.UserDao;
 import test.bean.UserService;

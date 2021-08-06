@@ -1,8 +1,8 @@
 package test;
 
 import cn.hutool.core.io.IoUtil;
-import cn.wii.springframework.beans.facory.support.DefaultListableBeanFactory;
-import cn.wii.springframework.beans.facory.xml.XmlBeanDefinitionReader;
+import cn.wii.springframework.beans.factory.support.DefaultListableBeanFactory;
+import cn.wii.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import cn.wii.springframework.core.io.DefaultResourceLoader;
 import cn.wii.springframework.core.io.Resource;
 import org.junit.Before;
